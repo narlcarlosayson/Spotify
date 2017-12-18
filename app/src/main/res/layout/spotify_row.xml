@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="false"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/linn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/txtMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textColor="@drawable/selector" />
+
+        <TextView
+            android:id="@+id/textArtist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMusic"
+            android:text="Position"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/Albumtxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtMusic"
+            android:layout_toRightOf="@id/textArtist"
+            android:text="Album"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:src="@drawable/menu2"/>
+    </RelativeLayout>
+
+
+</ScrollView>
